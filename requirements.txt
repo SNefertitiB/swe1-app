@@ -1,4 +1,4 @@
-python3
+python
 asgiref==3.5.2
 Django==3.2.16
 path==16.5.0
