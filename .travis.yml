@@ -3,7 +3,7 @@ python:
  - "3.8"
 
 install:
- - pip3 install -r requirements.txt
+ - pip install -r requirements.txt
 
 script:
  - python -m black . --check
@@ -20,6 +20,6 @@ deploy:
     region: "us-west-2"
     app: "django-tutorial"
     env: "django-env"
-    bucket_name: "the-target-S3-bucket"
+    bucket_name: "elasticbeanstalk-us-west-2-675072016824"
     on:
       all_branches: true
