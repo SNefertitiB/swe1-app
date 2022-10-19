@@ -8,7 +8,7 @@ install:
 script:
  - python -m black . --check
  - flake8 .
- - coverage run --source=swe-1-app,../mysite manage.py test
+ - coverage3 run --source=swe-1-app,../mysite manage.py test
 
 after_script:
  - python -m coveralls
