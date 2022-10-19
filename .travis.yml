@@ -8,7 +8,7 @@ install:
 script:
  - python -m black . --check
  - flake8 .
- - coverage run mysite manage.py test
+ - coverage run mysite/manage.py test
 
 after_script:
  - python -m coveralls
