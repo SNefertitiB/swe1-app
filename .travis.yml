@@ -1,5 +1,25 @@
 language: python
 python:
  - "3.7"
+
 install:
  - pip3 install -r requirements.txt
+
+script:
+ - python -m black . --check
+ - flake8 .
+ - coverage run --source={something}
+
+after_script:
+ - python -m coveralls
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "Encrypted <secret-access-id>="
+  secret_access_key:
+    secure: "Encypted <secret-access-key>="
+  region: "us-west-2"
+  app: "django-tutorial"
+  env: "django-env"
+  bucket_name: "the-target-S3-bucket"
