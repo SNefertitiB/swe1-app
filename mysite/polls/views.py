@@ -3,9 +3,9 @@ from django.shortcuts import get_object_or_404, render
 """If you use the render syntax for all views,
 you dont need the follow two imports for
 HttpResponse and loader"""
-#from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 
-#from django.template import loader
+# from django.template import loader
 
 from django.urls import reverse
 
