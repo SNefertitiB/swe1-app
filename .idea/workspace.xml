@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4266f78c-db2f-4360-bfec-4928983f550a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
