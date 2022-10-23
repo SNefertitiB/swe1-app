@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4266f78c-db2f-4360-bfec-4928983f550a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +40,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1665020849369">
+    <state x="451" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1666554174625">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="451" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1366.745@0.23.1366.745" timestamp="1665020849369" />
+    <state x="451" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1366.745@0.23.1366.745" timestamp="1666554174625" />
   </component>
 </project>
