@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-
 # Create your tests here.
 class FakeTest(TestCase):
-    def test_find_polls(self):
-        pass
+    def test_dummy_test(self):
+        assertEqual(5,5)
+
